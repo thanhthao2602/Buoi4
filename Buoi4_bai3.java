@@ -91,7 +91,7 @@ public void xuat() {
             hs[i] = new Buoi4_bai3();
             hs[i].nhap();
         }
-         System.out.printf("%-15s %-30s %-30s %-20s %-15s ","Ma sinh vien ", "Ho ten ", "diem toan ", "diem ly", "diem hoa", "Diem TB");
+         System.out.printf("%-15s %-30s %-15s  %-15s  %-15s %-15s","Ma sinh vien ", "Ho ten ", "diem toan ", "diem ly", "diem hoa", "Diem TB");
         for (int i = 0 ; i < 5 ; i++){
             System.out.println();
             hs[i].xuat();
